@@ -1,0 +1,40 @@
+.todo__item{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.todo__ul{
+    width: 250px;
+    padding: 0;
+    height: 80%;
+    overflow-y: auto;
+    border-top: 1px solid #2e333c;
+}
+.todo__ul::-webkit-scrollbar{
+    width: 15px;
+    color: white;
+}
+.todo__ul::-webkit-scrollbar-track{
+    background-color: #282c34;
+    box-shadow: inset -4px -4px 10px #3d424c, inset 4px 4px 10px #000000d1;
+    border-radius: 20px;
+}
+
+.todo__ul::-webkit-scrollbar-thumb{
+    background-color: #282c34;
+    box-shadow: inset -4px -4px 4px #3d424c, 4px 4px 20px #000000d1;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+}
+.todo__item button{
+    border-radius: 50px;
+    box-shadow: -4px -4px 10px #3d424c, 4px 4px 10px #000000d1;
+    border: none;
+    background-color: #282c34;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Roboto';
+}

@@ -1,0 +1,30 @@
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 20%;
+    padding-top: 15px;
+}
+
+.todo-form input{
+    width: 160px;
+    height: 40px;
+    padding: 0 0 0 15px;
+    border-radius: 50px;
+    box-shadow: inset -4px -4px 10px #3d424c, inset 4px 4px 10px #000000d1;
+    background-color: #282c34;
+    color: white;
+    border: none;
+}
+
+.todo-form button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: -4px -4px 10px #3d424c, 4px 4px 10px #000000d1;
+    background-color: #282c34;
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
